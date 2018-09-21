@@ -271,6 +271,7 @@
             this.btn_comata.TabIndex = 22;
             this.btn_comata.Text = ",";
             this.btn_comata.UseVisualStyleBackColor = true;
+            this.btn_comata.Click += new System.EventHandler(this.btn_comata_Click);
             // 
             // Form1
             // 

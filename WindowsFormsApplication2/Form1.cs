@@ -193,5 +193,10 @@ namespace WindowsFormsApplication2
             m -= double.Parse(tf_lcd.Text);
             tf_lcd.Text = m.ToString();
         }
+
+        private void btn_comata_Click(object sender, EventArgs e)
+        {
+            tf_lcd.Text += ",";
+        }
     }
 }
